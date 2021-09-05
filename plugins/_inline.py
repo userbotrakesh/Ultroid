@@ -22,7 +22,7 @@ from . import *
 # ================================================#
 notmine = f"This bot is for {OWNER_NAME}"
 
-TLINK = "https://telegra.ph/file/d9c9bc13647fa1d96e764.jpg"
+TLINK = "https://telegra.ph/file/4c301486dcd40bea0c2b0.jpg"
 helps = get_string("inline_1")
 
 add_ons = udB.get("ADDONS")
@@ -63,7 +63,7 @@ SUP_BUTTONS = [
         Button.url("Repo", url="https://github.com/TeamUltroid/Ultroid"),
         Button.url("Addons", url="https://github.com/TeamUltroid/UltroidAddons"),
     ],
-    [Button.url("Support", url="t.me/UltroidSupport")],
+    [Button.url("Support", url="t.me/ias_factory")],
 ]
 
 # --------------------BUTTONS--------------------#
@@ -79,7 +79,7 @@ async def inline_alive(o):
         MSG += f"\n\n• **Uptime** - `{uptime}`\n"
         MSG += f"• **OWNER** - `{OWNER_NAME}`"
         WEB0 = InputWebDocument(
-            "https://telegra.ph/file/55dd0f381c70e72557cb1.jpg", 0, "image/jpg", []
+            "https://telegra.ph/file/4c301486dcd40bea0c2b0.jpg", 0, "image/jpg", []
         )
         RES = [
             InputBotInlineResult(
